@@ -1,0 +1,22 @@
+{
+  "name": "robot4",
+  "version": "1.0.0",
+  "description": "slackbot that tells random jokes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.ibm.com:Annika-Opsasnick/robot4.git"
+  },
+  "author": "Annika Opsasnick",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/events-api": "^2.2.0",
+    "axios": "^0.19.0",
+    "express": "^4.17.1",
+    "validate-slack-request": "file:node_modules/validate-slack-request"
+  }
+}

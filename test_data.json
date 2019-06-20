@@ -1,0 +1,16 @@
+{
+    "type": "section",
+    "text": {
+        "type": "mrkdwn",
+        "text": "On the right there should be a . "
+    },
+    "accessory": {
+        "type": "button",
+        "text": {
+            "type": "plain_text",
+            "text": "Button",
+            "emoji": true
+        },
+        "value": "click_me_123"
+    }
+}
